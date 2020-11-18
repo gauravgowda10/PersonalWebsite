@@ -1,0 +1,219 @@
+/* Gaurav Gowda
+*/
+
+p, li, h3, h4, h5, h6 {
+  color: #444444;
+  font-family: 'Quicksand', sans-serif;}
+
+h1 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #8c1515;
+}
+
+
+h2 {
+  font-family: 'Be Vietnam', sans-serif;
+  color: #2e2d29;
+}
+
+body {
+  background-image: url(pattern.jpg);
+  margin: 0px;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #2e2d29;
+  font-family: 'Quicksand', sans-serif;}
+
+a:hover {
+  color: #2e2d29;
+}
+
+/* Header and Navigation Bar */
+background {
+  height: 200px;
+}
+
+header img {
+  height: 54px;
+  float: left;
+  margin: 0px 30px 20px 20px;
+}
+
+#name {
+  margin-top: 30px;
+  line-height: 30%;
+  font-size: 34px;
+  text-shadow: 2px 2px #cccccc;
+  font-weight: bold;
+}
+
+header h2 {
+  color: #2e2d29;
+  font-size: 24px;
+}
+
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8c1515;
+  position: sticky;
+  top: 0; 
+  width: 100%;
+}
+
+.navbarli {
+  float: left;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white !important;
+  text-align: left;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2e2d29;
+  color: white;
+}
+
+.active {
+    background-color: #2e2d29;
+    color: white;
+}
+
+
+/* Home Page */
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+  margin: 50px;
+  justify-content: flex-end;
+}
+
+.quote {
+  text-align: center;
+  height: 10%;
+  width: 50%;
+  margin: 5px;
+  justify-content: flex-end;
+}
+
+#quote {
+  margin-top: 9vw;
+  font-size: 4vw;
+  align-items: center;
+}
+
+#attribution {
+  font-size: 3vw;
+}
+
+/* Footer */
+footer {
+  /*display: flex; */
+
+  clear: right;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #2e2d29;
+  color: #8c1515;
+  text-align: center;
+  /*display: flex;
+  clear: right;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e2d29;
+  color:  #8c1515;
+  height: 80px;
+  justify-content: space-between; */
+}
+
+footer img {
+  height: 40px;
+  float: left;
+  margin-top: 21px;
+  margin-left: 18px;
+}
+
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/*.UW {
+  align-items: middle;
+  float: right;
+  padding: 10px;
+  align-items: center; 
+  margin-top: 8%;  
+} */
+
+.social{
+  height: 40px;
+  width: 40px;
+  float: right; 
+  padding-right: 1%;
+}
+
+/* About */
+.pic {
+  float: left;
+  height: 600px;
+  margin: 30px;
+ }
+
+.about {
+  margin: 40px;
+}
+
+/* Resume */
+
+#resume {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 800px;
+  height: 400px;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.experience {
+  text-align: center;
+}
+
+.badge {
+  width: 3%;
+}
